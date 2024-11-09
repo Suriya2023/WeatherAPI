@@ -1,0 +1,132 @@
+
+.fa-wind {
+    color: #74C0FC;
+}
+.fas{
+    font-size: 2.5vmin;
+}
+.diwali{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    /* border: 21px solid; */
+    flex-wrap: nowrap;
+    justify-content: center;
+    height: 100%;
+    background: rgb(0, 0, 0, 0.4);
+    width: 100%;
+    margin: 0 auto;
+    box-shadow: 2px 2px 2px;
+    max-width: 1320px;
+    border-radius: 2vmin;
+}
+
+.weather-widget {
+     /* max-width: 400px; */
+     margin: 0 auto;
+     /* background-color: #74C0FC; */
+     background-image: url("https://res.wetter2.com/images/day-component-desktop.png");
+     width: 100%;
+     background-size: cover;
+     background-repeat: no-repeat;
+     height: 80vmin;
+     /* background-color: #f3f4f9; 
+     */
+    /* max-width: 1320px; */
+
+     /* border-radius: 20px; */
+     padding: 20px;
+     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+     text-align: center;
+ }
+
+.search-bar {
+    display: flex;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.search-bar input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+
+.search-bar button {
+    background-color: #5a3ea3;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.city-info {
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.temperature {
+    font-size: 50px;
+    font-weight: bold;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.temp-units {
+    font-size: 16px;
+}
+
+.weather-details {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+    font-size: 14px;
+    gap: 10px;
+}
+
+.forecast {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.forecast-day {
+    flex: 1;
+    text-align: center;
+    font-size: 14px;
+}
+
+.forecast-day img {
+    width: 30px;
+    margin: 5px 0;
+}
+
+.day-name {
+    font-weight: bold;
+}
+
+.temp-range {
+    font-size: 14px;
+}
+
+
+@media (max-width:768px) {
+    .weather-details {
+        flex-direction: column;
+    }    
+    #weather-widget {
+        height: auto;
+    }
+   
+    }
+
+
+@media screen and (max-width:425px) {
+    .forecast {
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,96 @@
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 4vmin;
+        text-align: left;
+    }
+
+    .content {
+        max-width: 900px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .title {
+        font-size: 2rem;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+
+    .text-image {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .text {
+        width: 50%;
+        /* flex: 1 1 300px; */
+        padding: 20px;
+        color: #333;
+    }
+
+    .weather-card {
+        /* flex: 1 1 300px; */
+        /* background-color: #5fc2af; */
+        background: url("https://i.pinimg.com/736x/c9/cb/c6/c9cbc68582b36e649aba41f1a8258314.jpg");
+        color: white;
+        box-shadow: inset 6px 4px 172px -8px black;
+        padding: 20px;
+        border-radius: 15px;
+        text-align: center;
+    }
+
+    .weather-card .city {
+        font-size: 2rem;
+        margin-bottom: 5px;
+    }
+
+    .weather-card .temp {
+        font-size: 3rem;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+
+    .weather-card .info {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 0;
+    }
+
+    .weather-card .info div {
+        text-align: center;
+    }
+
+    .weather-card .forecast {
+        display: flex;
+        justify-content: space-around;
+        padding-top: 10px;
+        font-size: 0.9rem;
+    }
+
+    .image {
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+        border-radius: 15px;
+        margin-left: 20px;
+    }
+
+    @media screen and (max-width:768px) {
+
+        
+    }
+
+
+    @media screen and (max-width:770px) {
+       .text{
+        width: 100%;
+            
+        }
+        
+    }

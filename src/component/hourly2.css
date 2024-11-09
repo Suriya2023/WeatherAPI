@@ -1,0 +1,50 @@
+.hourly2 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 3vmin;
+}
+.mainhu{
+    /* border: 1px solid; */
+    padding: 2vmin;
+    max-width: 1320px;
+    margin: 0 auto;
+}
+.hourly1 {
+    text-align: center;
+    font-size: 3vmin;
+    margin-top: 2vmin;
+    text-decoration: underline;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.namehu{
+    font-size: 5vmin;
+    font-weight: bolder;
+
+}
+
+.hou3 {
+
+    margin: 10px 0;
+    background-image: url("https://img.icons8.com/emoji/48/000000/sun-emoji.png");
+     /* color: white; */
+    /* padding: 10px; */
+    /* background: blue; */
+    /* box-shadow: inset -2px 2px 75px 22px black; */
+    /* box-shadow: inset -2px 2px 45px 12px black; */
+    background-size: contain;
+    border-radius: 5vmin;
+    background-repeat: no-repeat;
+    border: 2px solid;
+
+}
+.tempttt{
+width: 74%;
+float: inline-end;
+align-items: baseline;
+align-content: flex-start;
+/* display: flex; */
+height: 100%;
+/* border: 1px solid; */
+justify-content: flex-start;
+margin-top: 1.5vmin;
+}
